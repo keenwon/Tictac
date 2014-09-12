@@ -346,4 +346,4 @@
         window.Tictac = tictac;
     }
 
-})(jQuery);
+})();
