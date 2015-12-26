@@ -1,5 +1,6 @@
 #Tictac
-[http://keenwon.com/1262.html](http://keenwon.com/1262.html)
+demo: [http://keenwon.com/demo/201406/tictac.html](http://keenwon.com/demo/201406/tictac.html)
+more: [http://keenwon.com/1262.html](http://keenwon.com/1262.html)
 
 ##Example
 
