@@ -1,4 +1,5 @@
 #Tictac
+[http://keenwon.com/1262.html](http://keenwon.com/1262.html)
 
 ##Example
 
@@ -98,5 +99,3 @@ Tictac.remove('id1');
 }
 ```
 当然如果你只需要精确到天的话，可以只保留`days` 。另外，设置`formatIgnore`为`true` （默认也是true）的话，会隐藏空值，就拿上面的对象来说，如果现在离目标时间还有n多天，那么会完整的显示“XX天 XX小时 XX分 XX秒”，如果是同一天，就只显示“XX小时 XX分 XX秒”。另外，`{hh}` 和`{h}` 的区别就在于时数小于10的时候，例如8，是显示08还是8。
-
-more：[http://keenwon.com/1262.html](http://keenwon.com/1262.html)
