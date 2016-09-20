@@ -45,6 +45,11 @@ Tictac.create('idn', {
 });
 ```
 
+##Usage
+
+1. 使用bower安装`bower install Tictac`
+2. 直接下载`tictac.js`使用
+
 ##Api
 
 ####`init`
