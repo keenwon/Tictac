@@ -1,0 +1,10 @@
+{
+  "name": "Tictac",
+  "main": "Tictac.js",
+  "homepage": "https://github.com/keenwon/Tictac",
+  "authors": [
+    "keenwon <semanwmj@yeah.net>"
+  ],
+  "description": "",
+  "license": "MIT"
+}
