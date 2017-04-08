@@ -5,6 +5,23 @@
 demo: [http://keenwon.com/demo/201406/tictac.html](http://keenwon.com/demo/201406/tictac.html)  
 more: [http://keenwon.com/1262.html](http://keenwon.com/1262.html)
 
+<!-- TOC -->
+
+- [Example](#example)
+- [Usage](#usage)
+- [Api](#api)
+    - [`init`](#init)
+    - [`create`](#create)
+    - [`reset`](#reset)
+    - [`remove`](#remove)
+    - [`execute`](#execute)
+    - [`getCurrentTime`](#getcurrenttime)
+    - [`regulate`](#regulate)
+    - [`destroy`](#destroy)
+    - [格式化对象](#格式化对象)
+
+<!-- /TOC -->
+
 ## Example
 
 ```javascript
