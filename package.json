@@ -1,7 +1,7 @@
 {
   "name": "tictac.js",
-  "version": "1.0.0",
-  "description": "[![Bower Status][bower-image]][bower-url]",
+  "version": "1.0.1",
+  "description": "简洁的倒计时组件",
   "main": "tictac.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/keenwon/Tictac.git"
   },
-  "keywords": [],
+  "keywords": [
+    "timer",
+    "setTimeout",
+    "setInterval",
+    "stopwatch",
+    "clock"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
