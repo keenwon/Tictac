@@ -11,15 +11,6 @@ more: [http://keenwon.com/1262.html](http://keenwon.com/1262.html)
 - [Example](#example)
 - [Usage](#usage)
 - [Api](#api)
-    - [`init`](#init)
-    - [`create`](#create)
-    - [`reset`](#reset)
-    - [`remove`](#remove)
-    - [`execute`](#execute)
-    - [`getCurrentTime`](#getcurrenttime)
-    - [`regulate`](#regulate)
-    - [`destroy`](#destroy)
-    - [格式化对象](#格式化对象)
 
 <!-- /TOC -->
 
@@ -67,7 +58,7 @@ Tictac.create('idn', {
 
 两种安装方式：  
 
-1. 使用bower安装
+1. 使用 npm 安装
 
 ```shell
 npm install tictac.js --save // or yarn
