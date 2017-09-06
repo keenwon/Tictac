@@ -1,7 +1,7 @@
 /**
  * Tictac计时组件
  *
- * @module Tactic
+ * @module Tictac
  */
 
 ; (function (global, factory) {
@@ -10,7 +10,7 @@
   } else if (typeof define === 'function' && define.amd) {
     define(factory);
   } else {
-    global.Tactic = factory();
+    global.Tictac = factory();
   }
 }(this, function () {
   'use strict';
