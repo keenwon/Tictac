@@ -1,6 +1,6 @@
 {
   "name": "tictac.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "简洁的倒计时组件",
   "main": "tictac.js",
   "scripts": {
