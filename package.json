@@ -2,9 +2,11 @@
   "name": "tictac.js",
   "version": "1.0.2",
   "description": "简洁的倒计时组件",
-  "main": "tictac.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "elint lint \"./src/**/*.js\"",
+    "prebuild": "rimraf ./dist",
+    "build": "rollup --config",
     "beforecommit": "elint lint commit"
   },
   "repository": {
@@ -28,8 +30,15 @@
     "url": "https://github.com/keenwon/Tictac/issues"
   },
   "homepage": "https://github.com/keenwon/Tictac#readme",
+  "files": [
+    "dist",
+    "index.js"
+  ],
   "devDependencies": {
     "elint": "^1.9.0",
-    "elint-preset-kw": "^1.5.0"
+    "elint-preset-kw": "^1.5.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-terser": "^4.0.3"
   }
 }
