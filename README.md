@@ -1,6 +1,7 @@
 # Tictac
 
 [![NPM version][npm-image]][npm-url]
+[![Build status][circleci-image]][circleci-url]
 
 demo: [http://keenwon.com/demo/201406/tictac.html](http://keenwon.com/demo/201406/tictac.html)  
 more: [http://keenwon.com/1262.html](http://keenwon.com/1262.html)
@@ -152,3 +153,5 @@ Tictac.remove("id1")
 
 [npm-image]: https://img.shields.io/npm/v/tictac.js.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/tictac.js
+[circleci-image]: https://img.shields.io/circleci/project/github/keenwon/Tictac.svg?maxAge=3600&logo=circleci&style=flat-square
+[circleci-url]: https://circleci.com/gh/keenwon/Tictac
