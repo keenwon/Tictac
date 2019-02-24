@@ -35,7 +35,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "elint": "^1.9.0",
+    "elint": "^1.11.0",
     "elint-preset-kw": "^1.5.0",
     "rimraf": "^2.6.3",
     "rollup": "^1.1.2",
