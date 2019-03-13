@@ -1,5 +1,3 @@
-'use strict'
-
 import format from './utils/format'
 import extend from './utils/extend'
 

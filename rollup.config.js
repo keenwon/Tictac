@@ -1,4 +1,6 @@
+import path from 'path'
 import { terser } from 'rollup-plugin-terser'
+import typescript from 'rollup-plugin-typescript2'
 import { version } from './package.json'
 
 const banner = `/*!
@@ -7,19 +9,25 @@ const banner = `/*!
  */
 `
 
+const typescriptPlugin = typescript({
+  cacheRoot: path.join(__dirname, 'node_modules/.rts2_cache')
+})
+
 module.exports = [
   {
-    input: './src/tictac.js',
+    input: './src/tictac.ts',
+    plugins: [typescriptPlugin],
     output: {
-      file: './dist/tictac.umd.js',
+      file: './dist/tictac.js',
       banner,
       name: 'tictac',
       format: 'umd'
     }
   },
   {
-    input: './src/tictac.js',
+    input: './src/tictac.ts',
     plugins: [
+      typescriptPlugin,
       terser({
         output: {
           comments: /^!/
@@ -27,7 +35,7 @@ module.exports = [
       })
     ],
     output: {
-      file: './dist/tictac.umd.min.js',
+      file: './dist/tictac.min.js',
       banner,
       name: 'tictac',
       format: 'umd'

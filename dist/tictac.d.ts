@@ -1,0 +1,23 @@
+declare var tictac: {
+    _currentTime: number;
+    _lastTimeForCallback: number;
+    _lastTimeForInterval: number;
+    _timer: any;
+    _instanceHash: {};
+    _callbackInterval: number;
+    _timerInterval: number;
+    _callbackCountDown: number;
+    _callback: any;
+    init: (options: any) => void;
+    _run: () => void;
+    _check: () => void;
+    execute: () => void;
+    _sync: (key: any) => void;
+    create: (id: any, options: any) => void;
+    reset: (id: any, options: any) => void;
+    remove: (id: any) => void;
+    getCurrentTime: () => any;
+    regulate: (currentTime: any) => void;
+    destroy: () => void;
+};
+export default tictac;

@@ -1,4 +1,4 @@
-'use strict'
+import Format from '../types/format'
 
 var REGEX = {
   days: /{[Dd]}/g,
@@ -7,15 +7,11 @@ var REGEX = {
   seconds: /{[Ss]{2}}|{[Ss]}/g
 }
 
-export default function format (timestamp, format, ignore) {
-  var result = ''
+function formatDate (timestamp: number, format: Format, ignore: boolean): string {
+  var result: string = ''
 
   if (timestamp < 0 || typeof format !== 'object') {
     return result
-  }
-
-  if (Object.prototype.toString.call(ignore) !== '[object Boolean]') {
-    ignore = true
   }
 
   var timestampObject = {
@@ -30,18 +26,21 @@ export default function format (timestamp, format, ignore) {
       continue
     }
 
-    var value = timestampObject[i]
+    var value: number = timestampObject[i]
     if (value === 0 && result === '' && ignore && i !== 'seconds') {
       continue
     }
 
     result += format[i].replace(REGEX[i], function () {
       if (value < 10 && arguments[0].length > 3) {
-        value = '0' + value
+        return '0' + value
       }
+
       return value
     })
   }
 
   return result
 }
+
+export default formatDate
