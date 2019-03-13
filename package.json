@@ -4,7 +4,7 @@
   "description": "简洁的倒计时组件",
   "main": "./index.js",
   "scripts": {
-    "test": "elint lint \"./src/**/*.ts\"",
+    "test": "elint lint \"./src/**/*.ts\" --fix",
     "prebuild": "rimraf ./dist",
     "build": "rollup --config",
     "beforecommit": "elint lint commit"
@@ -36,7 +36,7 @@
   ],
   "devDependencies": {
     "elint": "^1.11.0",
-    "elint-preset-kw": "^1.8.0",
+    "elint-preset-kw": "^1.8.1",
     "rimraf": "^2.6.3",
     "rollup": "^1.5.0",
     "rollup-plugin-terser": "^4.0.4",
