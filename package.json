@@ -38,7 +38,7 @@
     "elint": "^2.0.0-alpha.1",
     "elint-preset-kw": "^1.8.1",
     "rimraf": "^2.6.3",
-    "rollup": "^1.16.7",
+    "rollup": "^1.17.0",
     "rollup-plugin-terser": "^5.1.0",
     "rollup-plugin-typescript2": "^0.22.0",
     "typescript": "^3.5.3"
