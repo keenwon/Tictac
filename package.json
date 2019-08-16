@@ -37,7 +37,7 @@
   "devDependencies": {
     "elint": "^2.0.0-alpha.3",
     "elint-preset-kw": "^1.8.1",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.0",
     "rollup": "^1.19.4",
     "rollup-plugin-terser": "^5.1.0",
     "rollup-plugin-typescript2": "^0.22.1",
