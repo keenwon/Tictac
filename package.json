@@ -41,6 +41,6 @@
     "rollup": "^1.29.1",
     "rollup-plugin-terser": "^5.2.0",
     "rollup-plugin-typescript2": "^0.25.3",
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.5"
   }
 }
