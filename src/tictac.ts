@@ -40,7 +40,7 @@ var tictac = {
     var self = this
 
     for (var i in self._instanceHash) {
-      if (!self._instanceHash.hasOwnProperty(i)) {
+      if (!Object.prototype.hasOwnProperty.call(self._instanceHash, i)) {
         continue
       }
 
@@ -92,7 +92,7 @@ var tictac = {
   create: function (id, options) {
     var self = this
 
-    if (self._instanceHash.hasOwnProperty(id)) {
+    if (Object.prototype.hasOwnProperty.call(self._instanceHash, id)) {
       return
     }
 
@@ -102,7 +102,7 @@ var tictac = {
   reset: function (id, options) {
     var self = this
 
-    if (!self._instanceHash.hasOwnProperty(id)) {
+    if (!Object.prototype.hasOwnProperty.call(self._instanceHash, id)) {
       return
     }
 
@@ -112,7 +112,7 @@ var tictac = {
   remove: function (id) {
     var self = this
 
-    if (!self._instanceHash.hasOwnProperty(id)) {
+    if (!Object.prototype.hasOwnProperty.call(self._instanceHash, id)) {
       return
     }
 

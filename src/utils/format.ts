@@ -22,7 +22,7 @@ function formatDate (timestamp: number, format: Format, ignore: boolean): string
   }
 
   for (var i in format) {
-    if (!format.hasOwnProperty(i)) {
+    if (!Object.prototype.hasOwnProperty.call(format, i)) {
       continue
     }
 
