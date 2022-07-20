@@ -3,8 +3,8 @@
 [![NPM version][npm-image]][npm-url]
 [![Build status][circleci-image]][circleci-url]
 
-demo: [http://keenwon.com/demo/201406/tictac.html](http://keenwon.com/demo/201406/tictac.html)  
-more: [http://keenwon.com/1262.html](http://keenwon.com/1262.html)
+demo: [https://keenwon.com/demo/201406/tictac](https://keenwon.com/demo/201406/tictac)  
+more: [https://keenwon.com/1262/](https://keenwon.com/1262/)
 
 **目录**：
 
